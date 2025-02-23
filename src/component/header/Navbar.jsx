@@ -18,7 +18,7 @@ export default function Navbar() {
           
           {/* Logo */}
           <div>
-            <NavLink to="/coffo" className="text-decoration-none text-light">
+            <NavLink to="/cofo" className="text-decoration-none text-light">
               <img src={logo} alt="logo" />
             </NavLink>
           </div>
