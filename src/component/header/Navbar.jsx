@@ -18,7 +18,7 @@ export default function Navbar() {
     <div className={`${ !isHome?navbar:navbarInHome} d-flex justify-content-between align-items-center p-3 `}>
       {/* Logo */}
       <div className='ml-auto'>
-        <NavLink to="/" className="text-decoration-none text-light">
+        <NavLink to="coffo/" className="text-decoration-none text-light">
           <img src={logo} alt="logo" />
         </NavLink>
       </div>

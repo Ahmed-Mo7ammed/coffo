@@ -8,13 +8,13 @@ import Coffees from './component/coffees/Coffees'
 import Contact from './component/contact/Contact'
 const router=createBrowserRouter([
   {
-path:"/", element : <Layout/> , children  : [
+path:"coffo/", element : <Layout/> , children  : [
 
 {index:true, element : <Home/>},
-{path : "about" , element : <About/>},
-{path : "Blog" , element : <Blog/>},
-{path : "Coffees" , element : <Coffees/>},
-{path : "Contact" , element : <Contact/>},
+{path : "coffo/about" , element : <About/>},
+{path : "coffo/Blog" , element : <Blog/>},
+{path : "coffo/Coffees" , element : <Coffees/>},
+{path : "coffo/Contact" , element : <Contact/>},
 
 
 ]
