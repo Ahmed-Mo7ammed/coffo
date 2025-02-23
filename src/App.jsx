@@ -9,7 +9,7 @@ import Contact from "./component/contact/Contact";
 
 const router = createBrowserRouter([
   {
-    path: "/cofo",
+    path: "/coffo",
     element: <Layout />,
     children: [
       { index: true, element: <Home /> }, 
