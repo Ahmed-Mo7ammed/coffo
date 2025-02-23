@@ -9,7 +9,7 @@ let { navbar, NavLinkes, mobileMenu, mobileNav, navbarInHome } = styles;
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   const location = useLocation();
-  const isHome = location.pathname === "/coffo" || location.pathname === "/coffo/home";
+  const isHome = location.pathname === "/coffo/" || location.pathname === "/coffo/home";
 
   return (
     <div className="container">
