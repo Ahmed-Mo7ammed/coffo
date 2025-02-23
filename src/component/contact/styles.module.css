@@ -1,0 +1,32 @@
+.styleForm{
+width: 70%;
+
+}
+.styleForm input:focus,.styleForm textarea:focus {
+  outline: none !important; 
+  box-shadow: none !important; 
+  border: 1px solid #ccc; 
+}
+.styleForm input,.styleForm textarea{
+
+background-color: rgba(241, 238, 238, 0.74);
+    border-radius: 20px;
+}
+.styleForm input::placeholder,
+.styleForm textarea::placeholder {
+  font-weight: 400;
+  font-size: 20px; 
+  
+
+}
+
+.styleForm input {
+  display: flex;
+  align-items: center;
+  height: 50px;
+}
+.styleForm textarea {
+    display: flex;
+    align-items: center;
+    height: 100px;
+  }

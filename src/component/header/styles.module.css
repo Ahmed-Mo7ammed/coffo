@@ -1,0 +1,46 @@
+.navbar{
+
+background-image: url("../../assets/images/banner-bg.png");
+background-color: rgba(0, 0, 0, 0.747);
+position: fixed;
+width: 100%;
+box-shadow: 2px 2px 12px black;
+z-index: 22222;
+}
+.navbarInHome{
+
+    background-color: transparent;
+    position: fixed;
+width: 100%;
+    }
+
+.NavLinkes ul li:hover{
+
+    background-color: rgb(189, 27, 27) !important;
+
+} 
+.NavLinkes ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+.NavLinkes ul li {
+    padding: 20px 10px 10px 10px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.4s ease-in-out;
+}
+
+.NavLinkes ul li:hover {
+    background-color: rgb(189, 27, 27) !important;
+}
+
+.NavLinkes ul li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+}
