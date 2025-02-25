@@ -40,7 +40,7 @@ export default function Footer() {
             >
               <FaGithub size={30} className="icon github" />
             </a>
-            <a href="https://wa.me/201062364098" target="_blank" rel="noopener noreferrer"  className="social-link"
+            <a href="https://wa.me/201062364985" target="_blank" rel="noopener noreferrer"  className="social-link"
             >
             <FaWhatsapp size={30}  className="icon whats"/></a>
           </div>
